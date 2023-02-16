@@ -1,0 +1,19 @@
+[
+    {
+      "Notification": {
+        "NotificationType": "PERCENTAGE",
+        "ComparisonOperator": "GREATER_THAN",
+        "Threshold": 50,
+        "ThresholdType": "ABSOLUTE_VALUE",
+        "NotificationState": "ALARM"
+      },
+      "Subscribers": [
+        {
+          "SubscriptionType": "EMAIL",
+          "Address": "kenslice@slicehq.site"
+        }
+        
+      ]
+    }
+    
+  ]
