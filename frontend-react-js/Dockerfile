@@ -7,3 +7,5 @@ WORKDIR /frontend-react-js
 RUN npm install
 EXPOSE ${PORT}
 CMD ["npm", "start"]
+
+# Make sure you go through code thoroughly
